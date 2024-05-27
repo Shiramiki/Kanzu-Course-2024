@@ -1,0 +1,61 @@
+* {
+    color:orange;
+    margin: 0.5;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+body {
+    background-color: rgb(94, 25, 134)
+}
+
+header {
+    background-color: white;
+}
+main a:link, del{
+    color:white;
+
+}
+
+main a:hover{
+    color:orange;
+
+}
+
+del, b {
+    font-weight:900;
+    font-size: larger;
+}
+
+header a, a button{
+    color: black;
+    
+    
+}
+button  {
+    background-color: orange;
+    
+}
+
+button:hover {
+    background-color: white;
+    color: orange;
+    font-weight: bolder;
+    
+}
+
+button:visited {
+    text-decoration: none;
+
+}
+
+footer p{
+    background-color: rgba(255, 255, 255, 0.329);
+    padding: 0.9px;
+
+}
+
+footer p,hr{
+    margin: 0;
+}
+

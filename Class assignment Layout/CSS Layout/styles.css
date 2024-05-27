@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+h1,ol,nav {
+    display: inline-block;
+}
+
+h1 {
+    width: 50vw;
+}
+
+#Resume {
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+header{
+    padding: 30px;
+    background-color: white;
+}
+body {
+    background-color: bisque;
+}
+main{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+p { 
+    background-color: teal;
+    color: white;
+    width:200px;
+    padding: 30px;
+}

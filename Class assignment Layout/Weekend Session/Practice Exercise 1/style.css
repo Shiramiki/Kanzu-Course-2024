@@ -1,0 +1,94 @@
+@font-face {
+    font-family: YoungSerif;
+    src: url(young-serif/YoungSerif-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(outfit/Outfit-VariableFont_wght.ttf);
+}
+h1 {
+    font-family: YoungSerif;
+}
+header {
+    display: flex;
+    /* border:2px solid red; */
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+nav {
+    flex-basis:50%;
+    /* flex:0.8; */
+}
+
+nav li{
+    list-style: none; 
+}
+
+header h1{
+    color: #F2B061;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color:#171567;
+    color: white;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid #171567;
+    color: #171567;
+}
+
+/* Main Section */
+
+main h1 {
+    font-size: 5vw;
+    padding-top:10px;
+    padding-left: 5vw;
+    font-family: YoungSerif;
+    width: 50%;
+
+}
+
+main h1 span {
+    color: #171567;
+}
+
+.child img {
+    width: 40%;
+    height: auto;
+}
+#parent {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5vw;
+
+}
+.child {
+    width: 50%;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.grand {
+    padding: 2vw;
+}
+
+p, h2 {
+    font-family: Outfit;
+}
