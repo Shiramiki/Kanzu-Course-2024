@@ -1,0 +1,84 @@
+General Formatting
+*{
+    padding: 0%;
+    margin: 0%;
+}
+*::-webkit-scrollbar {
+    width: 0;
+}
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+}
+  
+  * {
+    -ms-overflow-style: none;
+}
+    body {
+        position: relative;
+        /* width: 100vw; */
+         
+    }
+
+
+header {
+    z-index: 20000;
+}
+
+h1 {
+        font-size: 8vw;
+    }
+
+h2{
+        width: 100%;
+        font-size: 2vw;
+
+    }
+
+p {
+    font-size: 1.5vw;
+    }
+
+a{
+    text-decoration: none;
+    }
+
+    #Medium{
+        
+        border-radius: 6vw;
+        padding: 3vh;
+        display: block;
+        box-sizing: border-box;
+        width: 26vw;
+        margin: 3vh auto 0 auto;
+        text-align: center;
+        font-size: 1.8vw;
+        background-color: white;
+        border: 1px solid rgb(235, 180, 78);
+    }
+
+    #Medium:hover{
+        background-color: rgb(235, 180, 78);;        
+    }
+
+    #Services aside, .snapper {
+        display: none;
+    }
+
+    form label, form input, .personal {
+        display: block;
+    }
+
+    form label{
+        visibility: hidden;
+    }
+    #submit, #reset{
+        display: inline;
+    }
+
+

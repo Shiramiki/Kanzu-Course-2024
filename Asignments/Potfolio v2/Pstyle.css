@@ -1,0 +1,245 @@
+/* Mobile Phone */
+@media only screen and (max-width:549px) {
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #Tab{
+        display: none;
+    }
+    #Phone{
+        width: 100vw;
+    }
+    p{
+        font-size: 5vw;
+    }
+    nav {
+        position: fixed;
+        top:0;
+        left:0;
+        height:100vh;
+        z-index: 1;    
+        }
+
+   nav ol{
+        width: 80vw;
+        border: 1px solid red;
+        height: 80%;
+        background-color: rgba(235, 180, 78, 0.596);
+        display: none; 
+        }
+
+    nav li, i{
+        font-size: 8vw;
+        color:rgb(235, 180, 78);
+        text-shadow: 1px 1px 1px black;
+        /* border: 2px solid red; */
+        box-sizing: border-box;
+        list-style: none;
+        margin: 1vw 0;
+    }
+
+    ol, #check, nav label span{
+        display:none;
+    }
+
+
+    #check:checked ~ ol {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;    
+    }
+
+    nav span {
+        color: aliceblue;
+        text-shadow: 1px 1px 1px black;
+        padding: 0 1vw;
+        
+    } 
+    
+    section {
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+        /* padding:10vw 0 0 0; */
+        overflow: hidden;
+        
+        /* position: absolute;
+        top:0;
+        
+        box-sizing: border-box;
+        /* display: none; */
+        
+    }
+
+    #Welcome{
+        width:100vw;
+    }
+    #Welcome #img {
+        padding: 0;
+        position: absolute;
+        top:14vh;
+        width: 100%;
+        left: 1vw;
+    }
+    #img img{
+        width: 100%;  
+        z-index: 1000000000000;     
+    }
+
+
+    #img h3{
+        display: none;
+    }
+
+    #Text{
+        border: 1px solid  rgb(235, 180, 78);
+        height: max-content;
+        width: 100vw;
+        
+    }
+    #Text p{
+        position: absolute;
+        top:50vh;
+        text-align: justify;
+        width: 80%;
+        left: 9vw;
+    }
+
+    #Text h1{
+        text-align: left;
+        font-size: 6vw;
+        padding: 2vh 0 3vh 8vw;
+        background-color:  rgba(235, 180, 78, 0.596) ;
+        margin: 0;
+    }
+
+    #Text #I{
+        font-size: 4vh;
+        color: rgb(235, 180, 78) ;
+    }
+
+    #Text #break {
+        display: block;
+        padding: 2vh 0 0 0;
+    }
+    #Medium{
+        width:50vw;
+        font-size: 4vw;
+        padding: 1.5vh;
+        margin-top: 7vh;
+    }
+
+#Projects{
+    width: 100vw;
+}
+
+#Projects h1 {
+    font-size: 6vh;
+}
+
+    .project-tiles{
+        display: flex;
+        justify-content: space-around;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        overflow-y: hidden;
+        /* border: 1px solid red; */
+
+    }
+    .project-tile img{
+        width:80%;
+        margin-left: 10%;
+    }
+
+    .project-tile{
+        border: 1px inset;
+        width:70%;
+        padding: 1vh 1vw 1vh 1vw;
+        flex:0 0 70%;
+        margin: 4vw;
+    }
+
+    .project-tile p{
+        margin: 2%;
+    }
+
+    .project-tile h2{
+        font-size: 4vh;
+    }
+
+    #Services{
+        display: none;
+    }
+
+
+    #Form {
+        width: 98%;
+        /* border: 1px outset; */
+        margin: auto;
+        /* box-shadow: 1px 1px 1px black; */
+        position: relative;
+    }
+
+    form div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    
+    .personal {
+        width: 40%;
+        /* border: 1px solid yellow; */
+    }
+
+    .personal input{
+        width:95%;
+        height: 5vh;
+        border: 1px solid burlywood;
+        border-radius: 30px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    #Msg {
+        height: 20vh;
+        border: 1px solid burlywood;
+        border-radius: 10px;
+        width: 85%;
+    }
+
+    #Msg {
+        margin-left: 5vw;
+    }
+
+    #submit, #reset{
+        width: 20vw;
+        height: 4vh;
+        border-radius: 20px;
+        margin: 4vh 0;
+        background-color: white;
+    }
+
+    #Form h2{
+        color: rgb(235, 180, 78);
+        text-shadow: 1px 1px black;
+        padding-left: 6vw;
+        font-size: 4vh;
+    }
+
+    #submit:hover, #reset:hover{
+        background-color: rgba(235, 180, 78, 0.507);
+    }
+
+    #out{
+        display: none;
+    }
+    #Social{
+        display: none;
+    }
+}
