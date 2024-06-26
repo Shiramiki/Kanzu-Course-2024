@@ -351,6 +351,84 @@ header a:hover {
     box-sizing: border-box;
 }
 
+/* ------------------About us --------------------------- */
+#Header img{
+    width: 50vw;
+    margin: 2vh 25% 0 25%;
+    opacity: 0.7;
+    scroll-behavior: smooth;
+}
+
+#Header .flex>div{
+    flex: 0 0 90vw;
+    /* border: 1px solid black; */
+}
+
+#Almus .flex >div{
+    width: 50%;
+}
+
+#Almus .grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    width: 50%;
+    /* border: 1px solid brown; */
+    margin-left: 5%;
+}
+.grid h3{
+    color: #6b240c
+}
+
+
+#Team img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+
+#Team .text {
+    border: 1px solid red;
+    padding-top: 5vh;
+}
+#Affiliations, #Team, #Almus, #Header{
+    padding-top: 5%;
+    overflow-x: hidden;
+}
+
+#Affiliations h2, #Affiliations p, #Team h2, #Team p{
+    text-align: center;
+}
+
+.flex{
+    /* border: 1px solid blue; */
+    margin: 0 5vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    overflow-y: hidden;
+            /* border: 1px solid red; */
+}
+.container{
+    /* border: 1px solid purple; */
+    flex:0 0 30%;
+    margin: 1vh 2vw;
+    color: #5f513d;
+    background-color: #E6E7A0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+#Affiliations i {
+    color: #6b240c;
+}
+
+#Affiliations i:hover {
+    color: #f5cca0;
+    text-shadow: 1px 1px #6b240c;
+}
+
 /* -----------------Contact us---------------------------- */
 .over1{
     position: absolute;
